@@ -18,7 +18,14 @@ const CustomerCard = ({ name, email, userId }: Props) => {
 	const { loading, error, orders } = useCustomerOrders(userId);
 
 	return (
-		<TouchableOpacity style={tw("")}>
+		<TouchableOpacity
+			onPress={() =>
+				navigation.navigate("MyModal", {
+					name: name,
+					userId: userId,
+				})
+			}
+			style={tw("")}>
 			<Card containerStyle={tw("p-5 rounded-lg")}>
 				<View>
 					<View style={tw("flex-row justify-between")}>
