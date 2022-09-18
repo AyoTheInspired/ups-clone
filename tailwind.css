@@ -132,6 +132,10 @@
   padding-bottom: 0px
 }
 
+.pb-5 {
+  padding-bottom: 1.25rem
+}
+
 .text-center {
   text-align: center
 }
@@ -144,11 +148,6 @@
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem
 }
 
 .text-xs {
@@ -164,6 +163,11 @@
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem
 }
 
 .font-bold {
@@ -182,12 +186,12 @@
   font-style: italic
 }
 
-.text-\[\#59c1cc\] {
-  --tw-text-opacity: 1;
-  color: rgb(89 193 204 / var(--tw-text-opacity))
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.text-\[\#59c1cc\] {
+  --tw-text-opacity: 1;
+  color: rgb(89 193 204 / var(--tw-text-opacity))
 }
